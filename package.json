@@ -4,11 +4,11 @@
   "description": "Styling UI learnings",
   "main": "index.js",
   "scripts": {
-    "compile": "tailwindcss -i src/styles.css -o public/output.css --watch"
+    "dev": "npx tailwindcss -i src/styles.css -o public/output.css --watch"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.0.5"
   }
 }

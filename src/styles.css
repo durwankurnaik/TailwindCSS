@@ -1,6 +1,9 @@
-body {
-  padding: 0px;
-  margin: 0px;
-  color: aqua;
-  width: auto;
+/* Tailwind CSS utility classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-item {
+  @apply font-sans rounded-xl shadow-xl bg-gradient-to-bl from-green-200 to-green-400 w-full text-center text-xl;
+  height: 400px;
 }
