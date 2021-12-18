@@ -4,6 +4,6 @@
 @tailwind utilities;
 
 .card-item {
-  @apply font-sans rounded-xl shadow-xl bg-gradient-to-bl from-green-200 to-green-400 w-full text-center text-xl;
+  @apply font-sans rounded-xl shadow-xl bg-gradient-to-bl from-green-200 to-green-400 w-full text-center text-xl transition ease-in-out delay-75 hover:-translate-y-2 hover:scale-105;
   height: 400px;
 }
