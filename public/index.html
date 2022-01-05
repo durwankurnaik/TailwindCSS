@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The Tailwinds output CSS -->
+    <link href="output.css" rel="stylesheet" />
+    <title>Learning TailwindCSS</title>
 
-  <!-- The Tailwinds output CSS -->
-  <link href="output.css" rel="stylesheet" />
-  <title>Learning TailwindCSS</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <!-- The Navbar -->
-  <nav class="h-16 w-full bg-gradient-to-tr from-indigo-500 to-fuchsia-500 p-3 text-center text-3xl">
+  <body>
+    <!-- The Navbar -->
+    <!-- <nav class="h-16 w-full bg-gradient-to-tr from-indigo-500 to-fuchsia-500 p-3 text-center text-3xl"> 
     <span class="float-left">Navbar</span>
     <div class="invisible md:visible space-x-4 float-right">
       <a href="#"><i class="fab fa-twitter"></i></a>
@@ -22,13 +28,13 @@
       <a href="#"><i class="fab fa-linkedin"></i></a>
     </div>
     <div class="visible md:invisible float-right">
-      Mobile burger menu
-      <!-- Need to do work on this menu for responsive behaviour -->
-    </div>
-  </nav>
+      Mobile burger menu -->
+    <!-- Need to do work on this menu for responsive behaviour -->
+    <!-- </div>
+  </nav> -->
 
-  <!-- The Hero that sites right after the Navbar -->
-  <div class="grid place-items-center h-96 m-10 bg-teal-200">
+    <!-- The Hero that sites right after the Navbar -->
+    <!-- <div class="grid place-items-center h-96 m-10 bg-teal-200">
     <div>
       <span class="text-4xl">Here goes some of your text</span>
       <div class="space-x-2 text-center">
@@ -37,9 +43,10 @@
       </div>
     </div>
   </div>
+-->
 
-  <!-- The Flex layout -->
-  <p class="text-3xl mt-5 text-center">This is Flex</p>
+    <!-- The Flex layout -->
+    <!-- <p class="text-3xl mt-5 text-center">This is Flex</p>
   <div class="flex justify-center">
     <div class="h-72 w-96 flex items-center justify-center border rounded-lg shadow-lg m-5 bg-gray-400 text-white">
       <span class="text-3xl">First block</span>
@@ -50,10 +57,10 @@
     <div class="h-72 w-96 flex items-center justify-center border rounded-lg shadow-lg m-5 bg-gray-400 text-white">
       <span class="text-3xl">Third block</span>
     </div>
-  </div>
+  </div> -->
 
-  <!-- The Grid layout -->
-  <p class="text-3xl mt-5 text-center">This is Grid</p>
+    <!-- The Grid layout -->
+    <!-- <p class="text-3xl mt-5 text-center">This is Grid</p>
   <div class="container mx-auto">
     <div class="grid gap-10 p-5 w-3/4 mx-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       <div class="card-item grid content-center">
@@ -63,9 +70,9 @@
           help of <a href="#" class="hover:underline decoration-pink-400 hover:text-fuchsia-500">Tailwind CSS</a>
         </p>
       </div>
-      <div class="card-item grid place-items-center">
-        <!-- place-items-center centres the items from both x and y axis, content-center centres only from y axis -->
-        <p class="text-3xl">Grid Column 2</p>
+      <div class="card-item grid place-items-center"> -->
+    <!-- place-items-center centres the items from both x and y axis, content-center centres only from y axis -->
+    <!-- <p class="text-3xl">Grid Column 2</p>
       </div>
       <div class="card-item grid content-center">
         <p class="text-3xl">Grid Column 3</p>
@@ -98,10 +105,10 @@
         dolor sit amet consectetur adipisicing elit. Quos quaerat voluptatem sed suscipit maxime nobis dicta.
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <!-- Form at the bottom -->
-  <div class="container mx-auto">
+    <!-- Form at the bottom -->
+    <!-- <div class="container mx-auto">
     <div class="grid p-5 w-3/4 mx-auto">
       <span class="text-center text-3xl mb-10">
         Sign up for our news letter
@@ -128,17 +135,41 @@
         <button class="btn btn-transition">Submit</button>
       </form>
     </div>
-  </div>
+  </div> -->
 
-  <!-- <ul class="list-decimal flex justify-center">
+    <!-- <ul class="list-decimal flex justify-center">
     <li>Now this is a story all about how, my life got flipped turned upside down</li>
   </ul> -->
 
-  <!-- The footer -->
-  <footer class="h-16 bg-gradient-to-tr from-indigo-500 to-fuchsia-500 p-3 text-center text-3xl mt-5">Footer</footer>
+    <!-- The footer -->
+    <!-- <footer class="h-16 bg-gradient-to-tr from-indigo-500 to-fuchsia-500 p-3 text-center text-3xl mt-5">Footer</footer> -->
 
-  <!-- Font awesome icons script -->
-  <script src="https://kit.fontawesome.com/fbc4c7b93a.js" crossorigin="anonymous"></script>
-</body>
+    <!-- can't run if the internet is not availbale. only the previously used classnames works. I think  they are cached -->
+    <nav
+      class="flex h-14 flex items-center px-5 bg-teal-300 text-white justify-between"
+    >
+      <div class="flex-1">
+        <input
+          class="outline-none text-black p-1 text-sm font-light"
+          type="text"
+          name="search"
+          placeholder="Search"
+        />
+      </div>
+      <div class="flex justify-center text-2xl flex-1 font-bold">
+        FLORANGE FASHIONS.
+      </div>
+      <div class="flex-1 flex justify-end gap-5">
+        <a href="https://www.instagram.com">IG</a>
+        <a href="https://www.facebook.com">FB</a>
+        <a href="https://www.twitter.com">TWT</a>
+      </div>
+    </nav>
 
+    <!-- Font awesome icons script -->
+    <script
+      src="https://kit.fontawesome.com/fbc4c7b93a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

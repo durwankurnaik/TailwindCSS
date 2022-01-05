@@ -15,3 +15,7 @@
 .btn-transition {
   @apply transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:transform-none;
 }
+
+* {
+  font-family: "Urbanist", sans-serif;
+}
